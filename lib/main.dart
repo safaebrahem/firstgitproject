@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             toolbarHeight: 150,
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.pink[300],
             centerTitle: true,
             title: Text("Testing"),
           ),
