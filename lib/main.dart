@@ -12,7 +12,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(),
+      home: SafeArea(
+        child: Scaffold(
+          appBar: AppBar(
+            toolbarHeight: 150,
+            backgroundColor: Colors.blue,
+            centerTitle: true,
+            title: Text("Testing"),
+          ),
+        ),
+      ),
     );
   }
 }
