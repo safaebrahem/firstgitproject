@@ -17,8 +17,9 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             toolbarHeight: 150,
             backgroundColor: Colors.pink[300],
+
             centerTitle: true,
-            title: Text("Testing"),
+            title: Text("Test",style: TextStyle(fontSize: 24,color: Colors.black),),
           ),
         ),
       ),
